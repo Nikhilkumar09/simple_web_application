@@ -33,7 +33,7 @@ def birthday_invitation():
 
 
 @app.route('/Birthday-Invitation2')
-def birthday_invitation():
+def birthday_invitation2():
     return 'test'
 
 @app.route('/how are you')
