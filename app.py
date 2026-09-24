@@ -23,13 +23,18 @@ cursor = conn.cursor()
 def main():
     return "Welcome!"
 
-@app.route('/Birthday Invitation')
+@app.route('/Birthday-Invitation')
 def birthday_invitation():
     return """
     <h1>You're Invited!</h1>
     <h2>Birthday Eve Celebration</h2>
     <p>Join us on 26th September on 8 PM for an evening of fun, food and celebration!</p>
     """
+
+
+@app.route('/Birthday-Invitation2')
+def birthday_invitation():
+    return 'test'
 
 @app.route('/how are you')
 def hello():
