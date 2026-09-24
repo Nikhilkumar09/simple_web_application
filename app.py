@@ -24,7 +24,7 @@ def main():
     return "Welcome!"
 
 @app.route("/Birthday Invitation")
-def main():
+def birthday_invitation()
     return """
     <h1>You're Invited!</h1>
     <h2>Birthday Eve Celebration</h2>
